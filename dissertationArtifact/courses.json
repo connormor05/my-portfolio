@@ -1,0 +1,224 @@
+{
+"Programming Fundamentals": {
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Variables",
+      "description": "Understand how variables store and reference data during program execution.",
+      "difficulty": "easy",
+      "coreInfoBlock": "A variable is a named reference to a location in memory where a value is stored. It allows a program to retain and manipulate information as it runs. Each variable has an identifier (its name) and an associated value, which can change over time as the program executes. Variables form the foundation of program state and enable data to be updated, reused, and passed between different parts of a program."
+    },
+    {
+      "id": 2,
+      "title": "Data Types",
+      "description": "Explore how programming languages classify and manage different kinds of data.",
+      "difficulty": "easy",
+      "coreInfoBlock": "A data type defines the category of data a variable can hold and determines the operations that can be performed on it. Common types include integers for whole numbers, floating‑point values for decimals, strings for textual data, and booleans for logical conditions. Data types help the programming language enforce correctness, ensure predictable behaviour, and manage memory efficiently. Understanding data types is essential for writing reliable and error‑free programs."
+    },
+    {
+      "id": 3,
+      "title": "Control Flow",
+      "description": "Learn how programs make decisions and follow different execution paths.",
+      "difficulty": "medium",
+      "coreInfoBlock": "Control flow refers to the order in which a program’s instructions are executed. Conditional statements such as if, else if, and else allow a program to choose between alternative paths based on logical conditions. When a condition evaluates to true, the corresponding block of code is executed. Control flow enables programs to react to different inputs, handle varying situations, and implement decision‑making logic essential for real‑world applications."
+    },
+    {
+      "id": 4,
+      "title": "Loops",
+      "description": "Understand how loops automate repetition and process data efficiently.",
+      "difficulty": "medium",
+      "coreInfoBlock": "Loops allow a program to repeat a block of code multiple times without duplication. A for loop typically runs for a predetermined number of iterations, making it useful for processing sequences or collections. A while loop continues executing as long as its condition remains true, offering flexibility for tasks where the number of repetitions is not known in advance. Loops are fundamental for tasks such as data processing, searching, and automation."
+    },
+    {
+      "id": 5,
+      "title": "Functions",
+      "description": "Learn how functions structure programs into modular, reusable components.",
+      "difficulty": "hard",
+      "coreInfoBlock": "A function is a named block of code designed to perform a specific task. Functions can accept inputs, known as parameters, and may return an output value. By encapsulating behaviour, functions reduce repetition, improve readability, and support modular program design. They also make debugging and maintenance easier, as changes can be made in one place rather than across the entire codebase. Functions are a core building block of structured and scalable software."
+    },
+    {
+      "id": 6,
+      "title": "Lists & Collections",
+      "description": "Store multiple values and work with dynamic data.",
+      "difficulty": "medium",
+      "coreInfoBlock": "A list is an ordered collection of values stored within a single variable. Items can be accessed by index, modified, added, or removed. Lists allow programs to manage groups of related data efficiently and are widely used for tasks such as data processing, iteration, and dynamic storage. Understanding how to manipulate collections is essential for working with real‑world datasets."
+    },
+    {
+      "id": 7,
+      "title": "Dictionaries",
+      "description": "Map keys to values and organise structured data.",
+      "difficulty": "medium",
+      "coreInfoBlock": "A dictionary stores data as key–value pairs, allowing fast and direct access to values using their associated keys. Keys must be unique, while values can be of any data type. Dictionaries are ideal for representing structured or labelled data, such as configuration settings, user profiles, or lookup tables. They provide efficient retrieval and flexible organisation of information."
+    },
+    {
+      "id": 8,
+      "title": "Error Handling",
+      "description": "Learn how to prevent crashes and handle exceptions.",
+      "difficulty": "hard",
+      "coreInfoBlock": "Error handling ensures that programs can respond safely to unexpected issues without crashing. Try–except (or try–catch) blocks allow a program to detect errors, execute fallback behaviour, and maintain stability. Effective error handling improves reliability, enhances user experience, and supports robust software development by anticipating and managing failure cases."
+    },
+    {
+      "id": 9,
+      "title": "File Input & Output",
+      "description": "Read from and write to files to store data.",
+      "difficulty": "hard",
+      "coreInfoBlock": "File input and output allow programs to interact with external data sources. Reading from a file loads information into the program, while writing to a file stores information for later use. Proper file handling involves opening files safely, processing their contents, and closing them correctly to avoid data loss or corruption. File I/O is essential for tasks such as data storage, configuration management, and logging."
+    },
+    {
+      "id": 10,
+      "title": "Final Test",
+      "description": "A comprehensive assessment covering all major concepts from this course.",
+      "difficulty": "hard",
+      "type": "test"
+    }
+  ]
+},
+"Cybersecurity Basics": {
+  "lessons": [
+    {
+      "id": 1,
+      "title": "What Is Cybersecurity?",
+      "description": "Learn the purpose of cybersecurity and the core principles that protect digital systems.",
+      "difficulty": "easy",
+      "coreInfoBlock": "Cybersecurity refers to the practices, technologies, and processes used to protect systems, networks, and data from unauthorised access, damage, or disruption. It focuses on maintaining the confidentiality, integrity, and availability of information—often called the CIA triad. Modern cybersecurity addresses a wide range of digital threats, including malware, phishing, data breaches, and system vulnerabilities. Understanding cybersecurity is essential for recognising risks and safeguarding both personal and organisational information."
+    },
+    {
+      "id": 2,
+      "title": "Passwords and Authentication",
+      "description": "Understand secure passwords, authentication methods, and how identity verification works.",
+      "difficulty": "easy",
+      "coreInfoBlock": "Authentication is the process of verifying that a user is who they claim to be. Strong passwords rely on length, unpredictability, and a mix of characters to resist guessing and brute‑force attacks. Additional methods such as two‑factor authentication (2FA) and multi‑factor authentication (MFA) enhance security by requiring multiple forms of verification, such as a password plus a code sent to a device. Good credential hygiene—like avoiding reuse and enabling MFA—significantly reduces the risk of account compromise."
+    },
+    {
+      "id": 3,
+      "title": "Malware and Social Engineering",
+      "description": "Explore common attack types and how attackers manipulate users.",
+      "difficulty": "medium",
+      "coreInfoBlock": "Malware is malicious software designed to disrupt, damage, or gain unauthorised access to systems. Common types include viruses, worms, ransomware, and spyware. Social engineering, on the other hand, targets human behaviour rather than technical weaknesses. Attackers manipulate individuals into revealing sensitive information or performing risky actions through tactics such as impersonation, urgency, or deception. Recognising suspicious messages, unexpected requests, and unusual behaviour is key to preventing these attacks."
+    },
+    {
+      "id": 4,
+      "title": "Network Security Basics",
+      "description": "Learn about firewalls, encryption, and secure communication.",
+      "difficulty": "medium",
+      "coreInfoBlock": "Network security focuses on protecting data as it travels between devices. Firewalls act as barriers that filter incoming and outgoing traffic based on predefined rules. Encryption transforms readable data into an unreadable format, ensuring that intercepted information cannot be understood without the correct key. Secure communication protocols, such as HTTPS and TLS, protect data in transit by combining encryption with authentication. These measures work together to maintain privacy and prevent unauthorised access."
+    },
+    {
+      "id": 5,
+      "title": "Vulnerabilities and Exploits",
+      "description": "Understand how weaknesses are discovered and used in attacks.",
+      "difficulty": "hard",
+      "coreInfoBlock": "A vulnerability is a flaw or weakness in software, hardware, or configuration that could be exploited by an attacker. An exploit is the technique or code used to take advantage of that vulnerability. Attackers often scan systems to identify outdated software, misconfigurations, or insecure settings. Regular updates, patch management, and security testing help reduce the likelihood of exploitation by addressing weaknesses before attackers can use them."
+    },
+    {
+      "id": 6,
+      "title": "Secure Web Browsing",
+      "description": "Learn how HTTPS, certificates, and safe browsing practices protect users.",
+      "difficulty": "easy",
+      "coreInfoBlock": "Secure web browsing involves recognising trustworthy websites and avoiding risky behaviour online. HTTPS ensures that data exchanged with a website is encrypted and protected from interception. Digital certificates verify the identity of websites, helping users avoid fraudulent or malicious pages. Additional safe practices include avoiding suspicious links, keeping browsers updated, and being cautious when downloading files. These habits reduce exposure to malware and phishing attempts."
+    },
+    {
+      "id": 7,
+      "title": "Phishing Detection",
+      "description": "Identify suspicious emails, links, and impersonation attempts.",
+      "difficulty": "medium",
+      "coreInfoBlock": "Phishing is a social engineering attack where attackers impersonate trusted organisations or individuals to steal sensitive information. Warning signs include unexpected messages, urgent or threatening language, mismatched URLs, spelling errors, and requests for credentials or payments. Verifying sender details, hovering over links before clicking, and being cautious with attachments help users avoid falling victim to phishing attempts."
+    },
+    {
+      "id": 8,
+      "title": "Encryption Basics",
+      "description": "Understand how encryption protects data at rest and in transit.",
+      "difficulty": "medium",
+      "coreInfoBlock": "Encryption converts readable data into an unreadable format using mathematical algorithms and keys. Only someone with the correct decryption key can restore the original information. Encryption protects data stored on devices (data at rest) and data being transmitted across networks (data in transit). It is a fundamental security measure used in secure messaging, online banking, and file protection to prevent unauthorised access even if data is intercepted."
+    },
+    {
+      "id": 9,
+      "title": "Incident Response",
+      "description": "Learn what to do when a security breach occurs.",
+      "difficulty": "hard",
+      "coreInfoBlock": "Incident response is the structured process of identifying, containing, and recovering from security breaches. Key steps include detecting the issue, analysing its impact, isolating affected systems, removing the threat, restoring normal operations, and documenting the incident. Effective incident response minimises damage, reduces downtime, and helps organisations learn from security events to prevent future occurrences."
+    },
+    {
+      "id": 10,
+      "title": "Final Test",
+      "description": "A comprehensive assessment covering all major concepts from this course.",
+      "difficulty": "hard",
+      "type": "test"
+    }
+  ]
+},
+"Software Engineering Principles": {
+  "lessons": [
+    {
+      "id": 1,
+      "title": "What Is Software Engineering?",
+      "description": "Learn the purpose of software engineering and the development lifecycle.",
+      "difficulty": "easy",
+      "coreInfoBlock": "Software engineering is the disciplined application of structured methods to design, build, test, and maintain software systems. It emphasises reliability, scalability, and long-term maintainability by following systematic development processes such as requirements analysis, design, implementation, testing, and deployment. Software engineering helps teams manage complexity, reduce errors, and deliver solutions that meet user and organisational needs."
+    },
+    {
+      "id": 2,
+      "title": "Clean Code Principles",
+      "description": "Understand how to write readable, maintainable, and well-structured code.",
+      "difficulty": "easy",
+      "coreInfoBlock": "Clean code is readable, consistent, and easy to modify. It follows principles such as using meaningful names, writing small and focused functions, maintaining clear structure, and avoiding duplication. Clean code improves collaboration by making intent obvious to other developers and reduces the likelihood of bugs. These practices support long-term maintainability and help teams work efficiently on shared codebases."
+    },
+    {
+      "id": 3,
+      "title": "Version Control with Git",
+      "description": "Learn how to track changes and collaborate using Git.",
+      "difficulty": "medium",
+      "coreInfoBlock": "Git is a distributed version control system that tracks changes to code over time. Developers can commit updates, create branches to experiment safely, merge work from different team members, and revert mistakes when necessary. Git enables collaboration by allowing multiple people to work on the same project without overwriting each other's changes. It also provides a clear history of modifications, supporting debugging and project management."
+    },
+    {
+      "id": 4,
+      "title": "Testing and Debugging",
+      "description": "Explore methods for ensuring code correctness and fixing issues.",
+      "difficulty": "medium",
+      "coreInfoBlock": "Testing verifies that software behaves as expected under different conditions. Common techniques include unit testing, integration testing, and automated test suites. Debugging involves identifying and resolving errors using tools such as breakpoints, logging, and step-by-step execution. Together, testing and debugging improve software quality, reduce failures, and ensure that new changes do not introduce unexpected behaviour."
+    },
+    {
+      "id": 5,
+      "title": "System Design Basics",
+      "description": "Learn how to structure scalable and reliable software systems.",
+      "difficulty": "hard",
+      "coreInfoBlock": "System design focuses on organising software components so they work together efficiently and reliably. Key concepts include scalability, modularity, reliability, and clear data flow. Good system design considers how components communicate, how data is stored, and how the system will grow over time. Effective design supports maintainability, performance, and the ability to adapt to new requirements."
+    },
+    {
+      "id": 6,
+      "title": "Agile & Scrum",
+      "description": "Understand iterative development, sprints, and team collaboration.",
+      "difficulty": "easy",
+      "coreInfoBlock": "Agile is an iterative development approach that emphasises flexibility, collaboration, and continuous improvement. Scrum is a popular Agile framework that organises work into short cycles called sprints. It defines roles such as the Product Owner, Scrum Master, and Development Team, along with ceremonies like sprint planning, daily stand-ups, and retrospectives. These practices help teams deliver value quickly and adapt to changing requirements."
+    },
+    {
+      "id": 7,
+      "title": "APIs and Integration",
+      "description": "Learn how systems communicate using APIs and data formats.",
+      "difficulty": "medium",
+      "coreInfoBlock": "APIs define how software systems communicate by specifying how data is requested and returned. They enable integration between different services, applications, or components. Common data formats include JSON and XML, which structure information for transmission. Effective API design ensures reliability, consistency, and ease of use, allowing systems to work together seamlessly."
+    },
+    {
+      "id": 8,
+      "title": "Databases & SQL",
+      "description": "Store, query, and manage structured data using SQL.",
+      "difficulty": "medium",
+      "coreInfoBlock": "Databases store structured information in tables consisting of rows and columns. SQL (Structured Query Language) is used to query, insert, update, and delete data. Concepts such as primary keys, relationships, and indexing help organise and optimise data retrieval. Understanding databases is essential for building applications that manage persistent information reliably and efficiently."
+    },
+    {
+      "id": 9,
+      "title": "Software Architecture Patterns",
+      "description": "Explore MVC, layered architecture, microservices, and more.",
+      "difficulty": "hard",
+      "coreInfoBlock": "Software architecture patterns provide reusable structures for organising complex systems. Layered architecture separates responsibilities into tiers such as presentation, logic, and data. MVC (Model–View–Controller) divides applications into components that manage data, user interfaces, and control logic. Microservices break systems into small, independently deployable services. Each pattern offers trade-offs in complexity, scalability, performance, and maintainability."
+    },
+    {
+      "id": 10,
+      "title": "Final Test",
+      "description": "A comprehensive assessment covering all major concepts from this course.",
+      "difficulty": "hard",
+      "type": "test"
+    }
+  ]
+}}
+

@@ -1,0 +1,327 @@
+/* ================================
+   GLOBAL BASE STYLING
+   (Modern + Playful)
+================================ */
+
+QWidget {
+    background: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #eef2ff,
+        stop:1 #dbeafe
+    );
+    font-family: "Segoe UI", sans-serif;
+    color: #1e1e2f;
+    font-size: 16px; 
+}
+
+*:focus {
+    outline: none;
+}
+
+QScrollArea {
+    background: transparent;
+    border: none;
+}
+
+QScrollArea > QWidget {
+    background: transparent;
+}
+
+QScrollArea > QWidget > QWidget {
+    background: transparent;
+}
+
+/* ================================
+   HEADERS & TEXT
+================================ */
+
+#headerTitle {
+    font-size: 38px; 
+    font-weight: 800;
+    color: #1e1e2f;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+#headerSubtitle {
+    font-size: 18px; 
+    color: #4b5563;
+    margin-bottom: 20px;
+}
+
+#motivationText {
+    font-size: 18px; 
+    font-weight: 600;
+    color: #1d4ed8;
+}
+
+#sectionTitle {
+    font-size: 22px; 
+    font-weight: 700;
+    color: #1e1e2f;
+    margin-bottom: 10px;
+}
+
+#xpLabel {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e1e2f;
+}
+
+#xpSubLabel {
+    font-size: 13px;
+    color: #4b5563;
+}
+
+/* ================================
+   ACHIEVEMENTS
+================================ */
+
+#achievementItem {
+    font-size: 16px; 
+    color: #374151;
+    padding: 6px 8px;
+}
+
+#dashboardCard {
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 2px solid #e5e7eb;
+    padding: 20px;
+    margin: 14px 18px;
+}
+
+#achievementRare {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2563eb;
+    border-left: 4px solid #3b82f6;
+    padding-left: 10px;
+}
+
+#achievementEpic {
+    font-size: 16px;
+    font-weight: 700;
+    color: #d97706;
+    border-left: 4px solid #fbbf24;
+    padding-left: 10px;
+    background-color: #fffbeb;
+    border-radius: 8px;
+    margin: 4px 0;
+}
+
+/* ================================
+   COURSE CARDS & PROGRESS BARS
+================================ */
+
+QFrame#courseCard {
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 2px solid #e5e7eb;
+    padding: 18px 20px;
+    margin: 14px 18px;
+    color: #1e1e2f;
+}
+
+QFrame#courseCard:hover {
+    border: 2px solid #c7d2fe;
+    background-color: #f8fafc;
+}
+
+QFrame#courseCard QLabel#courseTitle {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1e1e2f;
+    margin-bottom: 6px;
+}
+
+QFrame#courseCard QLabel#courseProgressText {
+    font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 8px;
+}
+
+QFrame#courseCard QProgressBar#courseProgressBar {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #e5e7eb;
+    height: 16px;
+    font-size: 11px;
+    color: #1e1e2f;
+    margin-bottom: 12px;
+}
+
+QFrame#courseCard QProgressBar#courseProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #22c55e, stop:1 #4ade80);
+    border-radius: 7px;
+}
+
+QProgressBar {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #e5e7eb;
+    text-align: center;
+    height: 18px;
+    font-size: 12px;
+    color: #1e1e2f;
+}
+
+QProgressBar::chunk {
+    background-color: #4f46e5;
+    border-radius: 7px;
+}
+
+#xpBar {
+    height: 12px;
+    border-radius: 6px;
+    background-color: #e5e7eb;
+}
+
+#xpBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #22c55e, stop:1 #4ade80);
+    border-radius: 6px;
+}
+
+/* ================================
+   BUTTONS (Game-style)
+================================ */
+
+/* 1. Base Buttons */
+QPushButton {
+    border: none;
+    padding: 8px 16px; 
+    border-radius: 18px;
+    font-size: 16px; 
+    font-weight: 600;
+    outline: none;
+    text-align: center;
+}
+
+QPushButton:disabled {
+    background-color: #d1d5db;
+    color: #9ca3af;
+}
+
+/* 🌟 NEW: Small Top-Bar Buttons (Logout & Settings) */
+#logoutButton, #settingsButton {
+    background-color: #ffffff;
+    color: #4f46e5;
+    border: 2px solid #4f46e5;
+    border-radius: 14px;
+    padding: 4px 12px; 
+    font-size: 13px;   
+    min-height: 30px;  
+    max-height: 30px;
+    margin: 0px; 
+}
+
+#logoutButton:hover, #settingsButton:hover {
+    background-color: #eef2ff;
+}
+
+/* 2. Primary Lesson Buttons (Big & Bold) */
+#primaryButton, #taskButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #4f46e5, stop:1 #6366f1);
+    color: white;
+    font-size: 18px; 
+    padding: 6px 20px; 
+    min-height: 45px;  
+    border-radius: 20px;
+    margin: 6px 0px; /* Breathing room! */
+}
+
+#primaryButton:hover, #taskButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #4338ca, stop:1 #4f46e5);
+}
+
+/* 3. Secondary Buttons (Multiple Choice, Ask AI Options) */
+#secondaryButton, #sendButton, #finishButton, #askButton, #skipButton, #askAiButton, #moveOnButton {
+    background-color: #ffffff;
+    color: #4f46e5;
+    border: 2px solid #4f46e5;
+    font-size: 18px; 
+    padding: 6px 20px; 
+    min-height: 45px;
+    border-radius: 20px;
+    margin: 6px 0px; /* Breathing room! */
+}
+
+#secondaryButton:hover, #sendButton:hover, #finishButton:hover, #askButton:hover, #skipButton:hover, #askAiButton:hover, #moveOnButton:hover {
+    background-color: #eef2ff;
+}
+
+/* 4. Homepage Course Resume Button */
+QFrame#courseCard QPushButton#resumeButton {
+    background-color: #ffffff;
+    color: #4f46e5;
+    border: 2px solid #4f46e5;
+    border-radius: 18px;
+    padding: 6px 16px;
+    font-weight: 700;
+    font-size: 14px;
+    min-height: 35px;
+    margin: 0px;
+}
+
+QFrame#courseCard QPushButton#resumeButton:hover {
+    background-color: #eef2ff;
+}
+
+/* ================================
+   CHAT / LESSON WINDOW
+================================ */
+
+#chatInput, QLineEdit {
+    background-color: #ffffff;
+    border: 2px solid #d1d5db;
+    border-radius: 14px;
+    padding: 12px;
+    font-size: 18px; 
+}
+
+#chatInput:focus {
+    border: 2px solid #4f46e5;
+}
+
+#statLabel {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+/* ================================
+   TASK AREA
+================================ */
+
+#taskFrame {
+    background-color: #ffffff;
+    border: 2px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 22px;
+}
+
+#taskQuestion {
+    font-size: 22px; 
+    font-weight: 800;
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+
+/* ================================
+   SLEEK MODERN SCROLLBAR
+================================ */
+
+QScrollBar:vertical {
+    border: none;
+    background: transparent;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #cbd5e1;
+    min-height: 40px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #94a3b8;
+}

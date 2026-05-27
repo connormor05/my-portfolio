@@ -1,0 +1,53 @@
+{
+    "users": {
+        "test@test.com": {
+            "last_course": "Programming Fundamentals",
+            "current_lesson": 10,
+            "auth_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc3MzkyOTgyNSwiZXhwIjoxNzc0MDE2MjI1fQ.ptuNaIiVce7yyxBbFc3-FAEvWLQqaTmPFO9uG3Phqsg",
+            "achievements": {
+                "first_message": true,
+                "level_2": true,
+                "level_3": true
+            },
+            "xp": 50,
+            "level": 3,
+            "xp_to_next_level": 150,
+            "streak": 1
+        },
+        "testuser1@test.com": {
+            "last_course": "Programming Fundamentals",
+            "current_lesson": 1,
+            "auth_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc3MzkyOTg0NSwiZXhwIjoxNzc0MDE2MjQ1fQ.AIMzWgTgjU8PlQDTZncI9S7-jhzQUJzVtGoabqNK29g",
+            "achievements": {
+                "first_message": true,
+                "two_day_streak": true,
+                "first_lesson_completed": true,
+                "level_2": true
+            },
+            "xp": 10,
+            "level": 2,
+            "xp_to_next_level": 100,
+            "streak": 2
+        },
+        "test1234455": {
+            "last_course": "Programming Fundamentals",
+            "current_lesson": 1,
+            "auth_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc3MzY3NzYyMSwiZXhwIjoxNzczNzY0MDIxfQ.jnu9r6_-N_MXjQLxPu1XnKFoW0HApiB1vcHBiYTQ-Ks"
+        },
+        "test1234": {
+            "last_course": "Programming Fundamentals",
+            "current_lesson": 2,
+            "auth_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc3NTY1ODM2NiwiZXhwIjoxNzc1NzQ0NzY2fQ.tgZacdlf1fl_08yNQM3z4lJZOi-X9iJcaRuKfk8nUJ4",
+            "achievements": {
+                "first_message": true,
+                "two_day_streak": true,
+                "first_lesson_completed": true
+            },
+            "xp": 46,
+            "level": 1,
+            "xp_to_next_level": 50,
+            "streak": 2
+        }
+    },
+    "last_logged_in": "test1234"
+}
